@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafurnitur</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/vendor/FontAwesome5/all.min.css">
+    <link rel="stylesheet" href="./src/vendor/SwiperSlider/swiper.css">
+</head>
+
+<body class="h-full">
+    <header>
+        <div class="h-18 fixed px-4 top-0 left-0 w-full z-10 bg-white animate-wiggle shadow-main">
+            <div class="container">
+                <nav class="nav h-21 w-full py-5 transition-an flex justify-between items-center">
+                    <a href="#" class="logo">
+                        <img src="./public/images/logo.svg" alt="logo">
+                    </a>
+                    <!-- Toggle bar -->
+                    <div class="burger w-6 cursor-pointer md:hidden">
+                        <div class=" toggle-open">
+                            <img src="./public/images/toggle-open.svg" class="w-full" alt="toggle open">
+                        </div>
+                        <div class=" toggle-close hidden ">
+                            <img src="./public/images/toggle-close.svg" class="w-full" alt="toggle close">
+                        </div>
+                    </div>
+
+                    <div
+                        class="navigation-bar__mobile hidden absolute mx-auto right-0 bg-second w-full top-18  py-5">
+                        <ul
+                            class="*:relative flex flex-col items-center  **:leading-7 **:mx-3 **:text-regular **:text-w **:font-regular capitalize animate-wiggle **:hover:text-first *:active:*:text-first">
+                            <li class="">
+                                <a href="#"
+                                    class="mr-0 text-white text-regular font-regular rounded-5 btn hover:bg-transparent hover:text-first hover:shadow-none ">Login
+                                </a>
+                            </li>
+                            <li class=" active:**:flex">
+                                <a href="#home">Home
+                                    <span class="hidden active:block links-after  "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex">
+                                <a href="#products">products
+                                    <span class="hidden active:block links-after "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex">
+                                <a href="#about">About us
+                                    <span class="hidden active:block links-after "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex ">
+                                <a href="#newsletter">contact us
+                                    <span class="hidden active:block links-after "></span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">sign up
+                                    <span
+                                        class="hidden active:block absolute top-auto -bottom-1.5 left-0 m-auto w-3.5 h-0.5 rounded-5x bg-first  "></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden md:block navigation-bar">
+                        <ul
+                            class="*:relative flex items-center **:mx-3 **:text-regular **:text-second **:font-regular capitalize animate-wiggle **:hover:text-first *:active:*:text-first">
+                            <li class=" active:**:flex">
+                                <a href="#home">Home
+                                    <span class="hidden active:block  links-after  "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex">
+                                <a href="#products">products
+                                    <span class="hidden active:block  links-after "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex">
+                                <a href="#about">About us
+                                    <span class="hidden active:block links-after "></span>
+                                </a>
+                            </li>
+                            <li class="active:**:flex ">
+                                <a href="#newsletter">contact us
+                                    <span class="hidden active:block links-after "></span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#">sign up
+                                    <span
+                                        class="hidden active:block absolute top-auto -bottom-1.5 left-0 m-auto w-3.5 h-0.5 rounded-5x bg-first  ">
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#"
+                                    class="mr-0 text-white text-regular font-regular rounded-5 btn hover:bg-transparent hover:text-first hover:shadow-none ">Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- home -->
+        <section class="relative h-screen min-h-full pt-22.5 items-center bg-fourth  d-flex"  id="home">
+            <img class="absolute hidden md:block right-0 sm:h-1/2 w-1/2 md:w-1/2 top-0 md:h-screen object-cover home-image"
+                src="./public/images/home.jpg" alt="home">
+            <div class="container">
+                <div class=" home-wrapper">
+                    <div class="md:w-1/2 md:h-screen w-full flex flex-col items-start md:items-start justify-center ">
+                        <h3>Get 50% off</h3>
+                        <h1 class="block text-left font-Merriweather capitalize">We care <br>
+                            about your interior</h1>
+                        <p class="desc w-8/10 mb-12.5 text-second">Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Nulla
+                            fermentum cursus tellus, vitae
+                            elementum lectus pulvinar iaculis. Pellentesque ut dui velit. Morbi bibendum maximus
+                            tristique. </p>
+                        <a href="#" class="btn">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- brand -->
+        <section class="brand pt-100">
+            <div class="container">
+                <div class="flex-wrap brand-wrapper nth-last-[mx-9]: last:mr-0 d-flex">
+                    <img src="./public/images/Brand-logos/b1.svg" alt=" brand logo">
+                    <img src="./public/images/Brand-logos/b2.svg" alt=" brand logo">
+                    <img src="./public/images/Brand-logos/b3.svg" alt=" brand logo">
+                    <img src="./public/images/Brand-logos/b4.svg" alt=" brand logo">
+                    <img src="./public/images/Brand-logos/b5.svg" alt=" brand logo">
+                    <img src="./public/images/Brand-logos/b1.svg" alt=" brand logo">
+                </div>
+
+            </div>
+        </section>
+        <!-- Products -->
+        <section class="products ptb-100" id="products">
+            <div class="container">
+                <!-- section title -->
+                <div class="title-section w-full text-center">
+                    <h2>Our products</h2>
+                    <p class="w-1/2 mx-auto font-sans">Mauris pellentesque suscipit risus at porta. In lobortis orci
+                        eget elit pellentesque imperdiet.
+                        Maecenas in nisl id erat maximus tristique. Quisque egestas lacus ac commodo pellentesque. </p>
+                </div>
+                <div class="product-wrapper flex flex-col md:flex-row  justify-center w-full mt-20 ">
+                    <!-- Product item -->
+                    <div
+                        class="product-item  basis-1 md:basis-1/3 rounded-5x shadow-main cursor-pointer mr-4 mb-7 ">
+                        <img src="./public/images/product1.jpg" alt="Product image"
+                            class="img-fluid w-full rounded-t-5x rounded-tr-5 ">
+                        <div class="product-content w-full py-8 px-8 text-xl   ">
+                            <h3 class="d-flex text-xl text-[rgba(26,37,14,0.7)]">Nullam Bed <span class="text-first">$
+                                    &nbsp; 250:99</span></h3>
+                        </div>
+                    </div>
+                    <!-- Product item -->
+                    <div
+                        class="product-item  basis-1/3  rounded-5x shadow-main cursor-pointer mr-4 mb-7 ">
+                        <img src="./public/images/product2.jpg" alt="Product image"
+                            class="img-fluid w-full rounded-t-5x rounded-tr-5 ">
+                        <div class="product-content w-full py-8 px-8 text-xl   ">
+                            <h3 class="d-flex text-xl text-[rgba(26,37,14,0.7)]">Aenean sofa <span class="text-first"> $
+                                    &nbsp; 580:78</span></h3>
+                        </div>
+                    </div>
+                    <!-- Product item -->
+                    <div
+                        class="product-item  basis-1/3  rounded-5x shadow-main cursor-pointer mr-4 mb-7 ">
+                        <img src="./public/images/product3.jpg" alt="Product image"
+                            class="img-fluid w-full rounded-t-5x rounded-tr-5 ">
+                        <div class="product-content w-full py-8 px-8 text-xl   ">
+                            <h3 class="d-flex text-xl text-[rgba(26,37,14,0.7)]">Lorem table<span class="text-first">$
+                                    &nbsp; 650:00</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about " id="about">
+            <div class="container">
+                <div class="aboutus-wrapper flex-wrap flex items-center justify-between">
+                    <div class="aboutus-img w-1/2 ">
+                        <img src="./public/images/about.jpg" alt="about image" class="img-fluid">
+                    </div>
+                    <div class="aboutus-content w-1/2 pl-15.5 ">
+                        <h2 class="font-Merriweather capitalize text-medium mb-6 ">About us</h2>
+                        <p class="mb-4 desc ">Mauris pellentesque suscipit risus at porta. In lobortis orci eget elit
+                            pellentesque
+                            imperdiet. Maecenas in nisl id erat maximus tristique. Quisque egestas lacus ac commodo
+                            pellentesque. </p>
+                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fermentum cursus
+                            tellus, vitae
+                            elementum lectus pulvinar iaculis. </p>
+
+                        <a href="#" class="btn mt-12.5 ">read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section class="newsletter ptb-100" id="newsletter">
+            <div class="container">
+                <!-- section title -->
+                <div class="title-section w-full text-center">
+                    <h2>Newsletter</h2>
+                    <p class="w-1/2 mx-auto desc ">Subscribe to our news letter and get best deals Mauris pellentesque
+                        suscipit risus at porta. In
+                        lobortis orci eget elit pellentesque imperdiet</p>
+                </div>
+                <div class="newsletter-wrapper w-[42%] mt-12.5 mx-auto flex-wrap flex items-center justify-between">
+                    <input type="text" placeholder="Your email address..." class="input">
+                    <a href="#" class="btn py-4 px-7.5 ml-2.5">Subscribe</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="pt-100 bg-second flex items-center justify-center text-center ">
+        <div class="container text-center ">
+            <a href="#home" class="flex justify-center ">
+                <img src="./public/images/logo-footer.svg" alt="logo">
+            </a>
+            <ul
+                class="text-center mt-12.5 *:inline-block *:mr-7 **:text-fourth **:text-regular font-regular animate-wiggle  group **:hover:text-first ">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+            <div class="copyright w-full mt-18 py-6  border-t border-solid border-[#344a1c]">
+                <h4 class="text-center text-fourth text-regular font-regular">Made with <span
+                        class="text-small text-[#da2b2b] mx-1.5 ">❤</span> by Raihan Nafis Zuraiq</h4>
+            </div>
+        </div>
+    </footer>
+    <!-- Scroll up -->
+    <span href="" class="hidden flex scrollup bottom-8  ">
+        <img src="./public/images/arrow-up.svg" alt="arrow up">
+    </span>
+
+
+
+    <!-- <script src="./public/js/main.js"></script> -->
+    <script src="./public/js/app.js"></script>
+    <script src="./public/js/jquery.min.js"></script>
+    <script src="./src/vendor/FontAwesome5/all.min.js"></script>
+    <script src="./src/vendor/SwiperSlider/swiper.js"></script>
+</body>
+
+</html>
